@@ -1,0 +1,14 @@
+{
+  "AmqpHost": "localhost",
+  "AmqpPort": "5672",
+  "AmqpUser": "guest",
+  "AmqpPassword": "guest",
+
+  "MysqlHost": "localhost",
+  "MysqlPort": "3306",
+  "MysqlUser": "username",
+  "MysqlPassword": "password",
+  "MysqlDatabase": "database",
+  
+  "UseOldGatewayEuiStyle": false
+}
