@@ -17,4 +17,4 @@ WORKDIR /root/
 COPY --from=builder /go-modules/ttn-to-aprs-bridge .
 COPY conf.json .
 
-CMD ["./postgres-insert-raw"]
+CMD ["./ttn-to-aprs-bridge"]
